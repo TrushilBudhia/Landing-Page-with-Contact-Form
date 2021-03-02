@@ -61,6 +61,10 @@ nav ul li a:hover {
     width: 40%;
 }
 
+.image-container figure img:hover {
+    opacity: 70%;
+}
+
 /* Form styling */
 #form-container {
     background-color: #A6CADA;
