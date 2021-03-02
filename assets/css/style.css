@@ -1,0 +1,98 @@
+/* Universal document styling */
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Body styling */
+body {
+    margin: 0 auto;
+}
+
+h2 {
+    font-size: 40px;
+}
+
+/* Header styling */
+header {
+    background-color: #00859E;
+    border-bottom: 5px solid #00688B;
+    color: #FFFFFF;
+    display: flex;
+    margin: 0 auto;
+    position: fixed;
+    width: 100%;
+}
+
+header h1 {
+    margin: 0 0 0 10px;
+    padding: 5px 10px 0 0;
+    width: 100%;
+}
+
+/* Navigation list styling */
+nav ul {
+    color: #FFFFFF;
+    display: flex;
+    list-style-type: none;
+}
+
+nav ul li a {
+    color: #FFFFFF;
+    padding: 17px 50px 17px 50px;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    background-color: #007085;
+}
+
+/* Image container styling */
+.image-container {
+    background-color: #DFECEB;
+    border-bottom: 15px solid #00688B;
+    margin: 0 auto;
+    padding: 50px 0 40px 0;
+    text-align: center;
+    width: 100%;
+}
+
+.image-container figure img {
+    border: 1px solid #A9A9A9;
+    width: 40%;
+}
+
+/* Form styling */
+#form-container {
+    background-color: #A6CADA;
+    margin: 0 auto;
+    padding: 10px 0px 50px 0px;
+    text-align: center;
+    width: 100%;
+}
+
+form {
+    border: 3px solid #1186A3;
+    border-radius: 25px;
+    margin: 0 auto;
+    padding: 30px 10px;
+    width: 40%;
+}
+
+#send-button {
+    background: #424242;
+    color: #FFFFFF;
+    padding: 10px 45px;
+}
+
+#send-button:hover {
+    background: #686767;
+}
+
+/* foot styling */
+footer {
+    background-color: #00859E;
+    color: #ffffff;
+    padding: 5px;
+    text-align: center;
+    width: 100%;
+}
