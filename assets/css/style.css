@@ -21,6 +21,7 @@ header {
     margin: 0 auto;
     position: fixed;
     width: 100%;
+    z-index: 1;
 }
 
 header h1 {
@@ -63,6 +64,7 @@ nav ul li a:hover {
 
 .image-container figure img:hover {
     opacity: 70%;
+    z-index: 2;
 }
 
 /* Form styling */
